@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid blue;
+    border-radius: 100px;
+    
+}
+
+.btn-number{
+    border: 1px solid greenyellow;
+    border-radius: 10px; 
+    height: 50px;
+    width: 75px;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.btn-number:hover{
+    background-color: palegreen;
+}
+
+.btn-operator{
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    height: 50px;
+    width: 75px;
+    margin: 15px;
+    font-size: 30px;
+}  
+
+.btn-operator:hover{
+    background-color: paleturquoise;
+}
+
+.btn-decimal{
+    border: solid pink;
+    border-radius: 10px;
+    height: 50px;
+    width: 75px;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.btn-decimal:hover{
+    background-color: palegoldenrod;
+}
+
+.btn-equal{
+    border: 1px solid pink;
+    border-radius: 10px;
+    height: 50px;
+    width: 75px;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.btn-equal:hover{
+    background-color: plum;
+}
+
+#clear-btn{
+    border: solid violet;
+    border-radius: 10px;
+    height: 50px;
+    width: 75px;
+    margin: 15px;
+    font-size: 30px;
+}
+
+#clear-btn:hover{
+    background-color: palegoldenrod;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    width: 300px;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    height: 65px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.previous{
+    font-size: 15px;
+}
+
+.current{
+    font-size: 25px;
+}
